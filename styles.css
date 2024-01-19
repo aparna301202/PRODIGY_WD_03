@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e4b5d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color: #ff00ae;
+    font-size: 40px;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin: 20px 0;
+    padding-left: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid #ff00ae;
+    border-radius: 20px;
+}
+
+.cell:hover {
+    background-color: #e283c6;
+}
+
+.status {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.resetBtn{
+    width: 220px;
+    height: 50px;
+    background-color: #e4b5d5;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff00ae;
+    border: 3px solid #ff00ae;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.resetBtn:hover{
+    background-color: #ff00ae;
+    color: #e4b5d5;
+}
+
+.radioBtn{
+    width: 20px;
+    height: 20px;
+
+}
+
+.label{
+    font-size: 30px;
+    color: #000000;
+}

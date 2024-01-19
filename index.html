@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div id="modeSelection">
+            <input class="radioBtn" type="radio" name="mode" id="twoPlayer" checked>
+            <label class="label" for="twoPlayer">Two Players</label>
+            <input class="radioBtn" type="radio" name="mode" id="vsAI">
+            <label class="label" for="vsAI">Play vs AI</label>
+        </div>
+        <div id="board" class="board">
+            <!-- The game board will be generated dynamically using JavaScript -->
+        </div>
+        <p id="status" class="status"></p>
+        <button class="resetBtn" id="resetBtn" onclick="resetGame()">Reset Game</button>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
